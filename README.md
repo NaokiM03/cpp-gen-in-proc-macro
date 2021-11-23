@@ -1,0 +1,1 @@
+# cpp-gen-in-proc-macro
