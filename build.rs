@@ -25,6 +25,7 @@ fn main() {
         std::env::var("OPT_LEVEL").unwrap()
     );
     println!("cargo:rustc-env=HOST={}", std::env::var("HOST").unwrap());
+    println!("cargo:rustc-link-lib=static=foo");
     println!(
         "cargo:rustc-link-search=native={}",
         std::env::var("OUT_DIR").unwrap()
