@@ -19,8 +19,6 @@ extern "C" int _foo()
 }}
 "#;
 
-    println!("hgoehogeoghe");
-
     let out_dir = std::env::var("OUT_DIR").unwrap();
     let out_dir = Path::new(&out_dir);
 

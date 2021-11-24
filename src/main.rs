@@ -1,4 +1,4 @@
-use cpp_gen_in_proc_macro::bar;
+use cpp_gen_in_proc_macro_impl::bar;
 
 #[bar]
 fn foo() -> i32 {}

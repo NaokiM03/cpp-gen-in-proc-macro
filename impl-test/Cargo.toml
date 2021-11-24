@@ -1,0 +1,7 @@
+[package]
+name = "impl-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cpp-gen-in-proc-macro-impl = { version = "0.1.0", path = "../impl" }
